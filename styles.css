@@ -1,4 +1,7 @@
 @import "./cards.css";
+@import "./header.css";
+@import "./button.css";
+@import "./navigation.css";
 h1 {
   text-align: center;
   color: blue;

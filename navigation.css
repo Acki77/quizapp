@@ -1,0 +1,36 @@
+.footer {
+  border: #ccc 2px solid;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+
+  border: #ccc 2px solid;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+.footer-link {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  background-color: rgb(175, 233, 136);
+}
+.footer-icon {
+  width: 20px;
+  height: 20px;
+}
+.footer-link:hover {
+  background-color: rgba(208, 243, 8, 0.034);
+  color: white;
+}
