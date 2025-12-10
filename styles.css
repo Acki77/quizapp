@@ -12,7 +12,56 @@ h1 {
   padding: 20px;
   border: 2px solid black;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: lightsalmon;
   position: fixed;
   top: 0;
+}
+.profile-body {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 800px;
+
+  padding-top: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightcyan;
+  position: relative;
+}
+.profile-head {
+  width: 100%;
+  height: 100px;
+  top: 0;
+  padding: 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  position: fixed;
+}
+.profile-details {
+  background-image: url(./assets/user-avatar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: sticky;
+  width: 100%;
+  height: 600px;
+  top: 0;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex: 1;
+
+  font-size: 18px;
+  color: rgb(199, 17, 17);
+}
+
+.profile-username {
+  font-weight: bold;
+  margin-bottom: 5px;
+  top: 120px;
+  left: 50px;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 24px;
 }
