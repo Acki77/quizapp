@@ -24,7 +24,7 @@ p {
   z-index: -1;
 }
 
-.quiz-card__text {
+.quiz-cards__text {
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
@@ -42,4 +42,7 @@ p {
   right: 10px;
   width: 30px;
   height: 30px;
+}
+.quiz-cards__answer-explanation--hidden {
+  display: none;
 }

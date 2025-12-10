@@ -16,6 +16,16 @@ h1 {
   position: fixed;
   top: 0;
 }
+.bookmarks-head {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(241, 219, 16);
+  position: fixed;
+  top: 0;
+}
 .profile-body {
   display: flex;
   flex-direction: column;
