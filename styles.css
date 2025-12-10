@@ -1,3 +1,4 @@
+@import "./cards.css";
 h1 {
   text-align: center;
   color: blue;
@@ -9,4 +10,6 @@ h1 {
   border: 2px solid black;
   border-radius: 10px;
   background-color: #f9f9f9;
+  position: fixed;
+  top: 0;
 }

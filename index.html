@@ -7,8 +7,54 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="quiz-container">
-      <h1>Quiz App</h1>
+    <div class="quiz-container" id="quiz-container">
+      <h1>Poker Quiz App</h1>
+    </div>
+    <div class="quiz-cards" id="quiz-cards">
+      <button class="fav-icon">
+        <img
+          src="./assets/fav-star_empty.png"
+          alt="Favorite Icon"
+          class="fav-icon-link"
+        />
+      </button>
+      <h2>Question</h2>
+      <p class="question-text">Was ist der Flop?</p>
+      <div class="answer-buttons">
+        <button class="answer-button">
+          Die ersten drei Gemeinschaftskarten
+        </button>
+        <button class="answer-button">
+          Die ersten zwei Gemeinschaftskarten
+        </button>
+        <button class="answer-button">Die letzte Gemeinschaftskarte</button>
+        <button class="answer-button">Die Hole Cards der Spieler</button>
+      </div>
     </div>
   </body>
+  <footer class="footer">
+    <nav class="footer-nav">
+      <a class="footer-link" href="index.html">
+        <img
+          src="./assets/home-empty.png"
+          alt="Home Icon"
+          class="footer-icon"
+        />
+      </a>
+      <a class="footer-link" href="favourites.html">
+        <img
+          src="./assets/fav-star_empty.png"
+          alt="Favourite Icon"
+          class="footer-icon"
+        />
+      </a>
+      <a class="footer-link" href="profile.html">
+        <img
+          src="./assets/user-empty.png"
+          alt="Profile Icon"
+          class="footer-icon"
+        />
+      </a>
+    </nav>
+  </footer>
 </html>
