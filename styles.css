@@ -55,9 +55,15 @@ h1 {
   padding: 20px;
   border: 2px solid rgb(243, 6, 6);
   border-radius: 10px;
-
   font-size: 18px;
   color: rgb(199, 17, 17);
+}
+.profile-details--textbox {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border: 2px solid rgb(199, 17, 17);
+  width: 50%;
+  border-radius: 5px;
 }
 
 .profile-username {
